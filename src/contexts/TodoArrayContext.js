@@ -18,7 +18,7 @@ export const TodoArrayContext = createContext({
     toggleTodoObject : (id) => {},
     // changeIfTodoMsgEmpty : (id) => {}
 });
-console.log("Type of TodoArrayContext :",typeof TodoArrayContext);
+// console.log("Type of TodoArrayContext :",typeof TodoArrayContext);
 
 export const TodoArrayContextProvider = TodoArrayContext.Provider;
 
