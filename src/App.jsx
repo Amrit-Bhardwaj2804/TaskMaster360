@@ -117,7 +117,7 @@ function App() {
         <TodoArrayContextProvider value={{todoObjectArray, addTodoObject, deleteTodoObject, updateTodoObject, toggleTodoObject}}>
           <div className='rounded-sm border-0 border-black border-solid h-[90vh] max-h-[90vh] w-[92vw] max-w-[92vw] bg-white shadow-md shadow-black/30 dark:shadow-lg dark:shadow-black/30   flex flex-row mt-5 overflow-hidden'>
             <ShortCutPanel />
-            <section className='relative h-full w-[95%] bg-white flex flex-col'>
+            <section className='relative h-full w-full bg-white flex flex-col'>
               <TodoForm />
               <div id='scroll-container' className='bg-gray-50 dark:bg-[#000000f9] h-[90%] pt-6 pb-6 overflow-y-scroll flex flex-col items-center justify-start gap-5 border-b-0 border-b-[#9747ff69] dark:border-0'> 
                 {
